@@ -1,5 +1,5 @@
 {
-  "name": "react-avancado",
+  "name": "web3-hemp-dao",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,7 +14,10 @@
     "template": "npx plop --plopfile ./generators/plopfile.js"
   },
   "dependencies": {
+    "@thirdweb-dev/react": "^2",
+    "@thirdweb-dev/sdk": "^2",
     "@types/react": "^17.0.9",
+    "ethers": "^5.6.4",
     "next": "10.2.3",
     "next-pwa": "^5.2.21",
     "prettier": "^2.3.1",
